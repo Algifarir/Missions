@@ -1,0 +1,83 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background{
+    position: absolute;
+    width: 100% !important;
+    height: 100% !important;
+}
+.p-relative{
+    position: relative;
+}
+.ilustration{
+    width: 30%;
+    margin: 100px 100px 0px 50px;
+}
+#h1{
+    width: 700px;
+    height: 80px;
+    padding: 20px;
+    font-size: 48px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+#h2{
+    width: 700px;
+    margin: 30px 0px 0px 0px;
+    padding: 20px 0px 5px 20px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+.content{
+    display: block;
+    height: 500px;
+    width: 600px;
+    margin: 70px 50px 0px 100px;
+}
+.line{
+    display: flex;
+    border: 3px solid #feecc8;
+    border-radius: 6px;
+    width: 700px;
+    height: 0px;
+}
+.line2{
+    display: flex;
+    border: 3px solid #feecc8;
+    border-radius: 6px;
+    width: 700px;
+    height: 0px;
+}
+#p{
+    width: 450px;
+    padding: 20px;
+    font-size: 18px;
+    font-family: 'Nunito';
+    font-weight: bold;
+}
+.white-font{
+    color: #feecc8;
+}
+.border{
+    border: 2px solid #feecc8;
+    border-radius: 6px;
+    margin: 20px 0px 0px 20px;
+    height: 50px;
+    width: 300px;
+}
+.but{
+    margin-left: 150px;
+    width: 50%;
+    height: 100%;
+    color: brown;
+    border-radius: 6px;
+    background-color: #feecc8;
+
+}
+
+

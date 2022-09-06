@@ -1,0 +1,68 @@
+
+
+.container{
+    display: grid;
+    border: 5px dashed black;
+    padding: 5px;
+    grid-template-columns: repeat(5, auto-fit);
+    grid-template-rows: repeat(6, 5vw);
+    grid-template-areas: 
+    'merah    hijau   hijau   ungu  ungu'
+    'merah    ping    oren1  oren1  oren1'
+    'merah    ping    hijau1  biru    biru'
+    'oren ping    hijau1  biru    biru'
+    'oren kuning  kuning  biru    biru'
+    'oren kuning  kuning  biru    biru';
+}
+.yellow-font{
+    color: rgb(247, 247, 77);
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+.black-font{
+    color:black;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    justify-content: center;
+    align-items: center;
+}
+.red{
+    grid-area: merah;
+    background-color: rgb(175, 84, 84);
+}
+.orange{
+    grid-area: oren;
+    background-color: orange;
+}
+.orange1{
+    grid-area: oren1;
+    background-color: orange;
+}
+.green{
+    grid-area: hijau;
+    background-color: rgb(74, 196, 74);
+}
+.green1{
+    grid-area: hijau1;
+    background-color: rgb(74, 196, 74);
+}
+.pink{
+    grid-area: ping;
+    background-color: pink;
+}
+.yellow{
+    grid-area: kuning;
+    background-color: rgb(221, 221, 73);
+}
+.purple{
+    grid-area: ungu;
+    background-color: purple;
+}
+.blue{
+    grid-area: biru;
+    background-color: rgb(121, 121, 207);
+}
